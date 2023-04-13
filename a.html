@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in table</title>
+</head>
+<body background="excelr.jpg">
+    <form>
+        <h1 align="center"><font color="black">ExcelR sign up page</font></h1>
+        <table border="1" width="60%" height="600px" align="center" bgcolor="black">
+
+        <!---row 1-->
+        <tr align="center" bgcolor="crimson">
+        <th colspan="2" > <font size="10"> sign up </font></th>
+        </tr>
+
+        <!--- row 2-->
+        <tr>
+            <th> <font color="crimson"> 
+                <label for="fname">Name</label> </font></th>
+                <th><input type="text" id="fname">  </th>
+           
+        </tr>
+
+        <!---row 3-->
+        <tr>
+            <th><font color="crimson">
+                <label for="age">Age</label>
+            </font></th>
+            <th><input type="date" id="age"></th>
+        </tr>
+
+        <!--row 4-->
+
+        <th><font color="crimson">
+            <label for="num">Mobile Number</label>
+          </font></th>
+          <th><input type="number" id="num"></th>
+         </tr>
+        <!--- row 5-->
+         <th><font color="crimson">
+         <label for="mail">Email</label></font></th>
+         <th><input type="email" id="mail"></th>
+         </tr>
+
+          <!--- row 6-->
+          <tr>
+          <th><font color="crimson">
+            <label for="gender">Gender</label>
+            </font></th>
+            <th><font color="crimson">
+            <input type="radio" name="gender">Male
+           <input type="radio" name="gender">Female
+            </th>
+            </tr>
+            <!--- row 7-->
+            <tr>
+                <th><font color="crimson">
+                    <label for="c">Country</label>
+                </th>
+               <th>
+                <select name="city" >
+                    <option value="India">India</option>
+                    <option value="uk">UK</option>
+                    <option value="usa">USA</option>
+                    <option value="Japan">Japan</option>
+                </select>
+               </th> 
+            </tr>
+
+            <!--- row 8-->
+            <tr align="center" bgcolor="crimson">
+                <th colspan="2">
+                    <input type="submit">
+                    <input type="reset">
+
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
